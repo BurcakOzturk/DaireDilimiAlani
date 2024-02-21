@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class odev2 {
+
+	public static void main(String[] args) {
+		double tutar,kdvtutar, kdvoran = 0.18;
+		Scanner input= new Scanner (System.in);
+		
+		System.out.print("1000:");
+		
+		tutar=input.nextDouble();
+		
+		kdvtutar = tutar*kdvoran;
+		kdvtutar = tutar+kdvtutar;
+		
+		
+		System.out.print("kdv'siz tutar :"+tutar);
+		System.out.print("kdv'siz oran :"+oran);
+		
+	}
+
+}

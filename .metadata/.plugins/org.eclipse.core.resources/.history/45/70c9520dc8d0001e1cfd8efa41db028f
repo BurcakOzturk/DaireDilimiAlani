@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class odev2 {
+
+	public static void main(String[] args) {
+		
+		double tutar,kdvoran = 0.18,KdvTutar,KdvliTutar;
+		
+				Scanner input= new Scanner (System.in);
+		
+		System.out.print("ücret tutarını giriniz:");
+		
+		tutar=input.nextDouble();
+		
+		kdvTutar = tutar * kdvOran;
+		kdvliTutar = tutar + kdvTutar;
+		
+		
+		System.out.println("KDV'siz Tutar :" + tutar);
+		System.out.println("KDV Oranı :" + kdvOran);
+		System.out.println("KDV Tutarı:" * kdvtutar);
+		System.out.println("KDV'li Tutarı :" + kdvliTutar);
+		
+		
+	}
+
+}

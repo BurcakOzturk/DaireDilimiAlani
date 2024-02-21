@@ -1,0 +1,40 @@
+package Javaödev1;
+
+public class IlkClass {
+	public static void main (String []arg) {
+		
+inp mat,fizik,kimya,turkce,tarih,muzik;
+
+Scanner inp = new Scanner(system,in);
+
+
+}
+	        
+	        System.out.println("mat notunuz:");
+	        mat=inp.nexlnt();
+	       
+	        System.out.println("fizik notunuz:");
+	        fizik=inp.nexlnt();
+		       
+	        System.out.println("kimya notunuz:");
+	        kimya=inp.nexlnt();
+	       
+	        System.out.println("turkce notunuz:");
+	        turkce=inp.nexlnt();
+	       
+	        System.out.println("tarih notunuz:");
+	        tarih=inp.nexlnt();
+	       
+	        System.out.println("muzik notunuz:");
+	        muzik = inp.nexlnt();
+	       
+	        double sonuc = (mat+fizik+kimya+turkce+tarih+muzik/6) 
+	        if(ortalama>=60){
+	            System.out.println("GEÇTİNİZ.");
+	        }
+	        else{
+	            System.out.println("KALDINIZ.");
+	        }
+	    }
+	    
+	}
